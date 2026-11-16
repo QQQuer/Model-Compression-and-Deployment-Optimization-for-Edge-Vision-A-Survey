@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "finetune",
+    "precision": "fp16",
+    "n": 3,
+    "mean_top1": 0.6848666666666666,
+    "sample_std": 0.0022030282189144535
+  },
+  {
+    "arm": "finetune",
+    "precision": "int8",
+    "n": 3,
+    "mean_top1": 0.6837333333333333,
+    "sample_std": 0.0022030282189144266
+  },
+  {
+    "arm": "finetune",
+    "precision": "int8_imagenetcal",
+    "n": 3,
+    "mean_top1": 0.6833333333333333,
+    "sample_std": 0.0013316656236958403
+  },
+  {
+    "arm": "prune",
+    "precision": "fp16",
+    "n": 3,
+    "mean_top1": 0.5376666666666666,
+    "sample_std": 0.0023007245235650113
+  },
+  {
+    "arm": "prune",
+    "precision": "int8",
+    "n": 3,
+    "mean_top1": 0.5388,
+    "sample_std": 0.002645751311064551
+  },
+  {
+    "arm": "prune",
+    "precision": "int8_imagenetcal",
+    "n": 3,
+    "mean_top1": 0.5384,
+    "sample_std": 0.0023065125189341267
+  }
+]
