@@ -1,0 +1,12 @@
+{
+  "release_date": "2026-11-16",
+  "source_sha256": {
+    "三任务实验入稿_2026-11-10/verified_results.json": "8830fb5b17c1c5de41a9121e41c00a6224551c71000fcdb834189b079ffd1b75",
+    "deployment/method_matrix_20261110/board_results/classification_complete_summary.json": "5188ff646d17ef62d4b7c27152dfb1741a680323408181a1cd3c8c90c05cd596",
+    "deployment/method_matrix_20261110/board_results/segmentation_complete_summary.json": "6f30bac659eecf2aa6fabe3491a0715ad4c64f007cb9105d071b82c708ccbfa4",
+    "deployment/method_matrix_20261110/board_results/raw6_final_summary.json": "f2307b65ea049d2c871814003157f7a75c262f4677d83b1d5e2d10fbb42e95b1",
+    "deployment/method_matrix_20261110/board_results/benchmark_complete_summary.json": "8b628073ebaed272f0d3adc81e0b7158ebd2a38b3ad46699fee47c3864624c5e",
+    "deployment/method_matrix_20261110/board_results/pruning_structure_summary.json": "a5c5501f17eb728c2fa1147ff204e1519d7256082aa7266648a324a6760e8848",
+    "deployment/method_matrix_20261110/board_results/deployment_result_tracker.json": "252ea798a3dd9b8f7a1f33f6428a9a0ea8525cce51adf38c55470d900df3d874"
+  }
+}
