@@ -31,3 +31,7 @@ Input dimensions match the three task sizes above. Timing uses five rounds of 20
 Accuracy fields in the pruning JSON summaries (`mean_top1`, `mean`, `accuracy`, and `AP`) use a 0-1 scale. Multiply by 100 for percentages. `sample_std` is the sample standard deviation on the same 0-1 scale. Fields ending in `_ms` are milliseconds; `_mib` are MiB; `_bytes` or `bytes` are bytes. MAC counts and parameter counts are absolute counts, and reduction fields ending in `_percent` use a 0-100 scale. Structure records identify task and seed through their relative `source` paths.
 
 `deployment_records.json` preserves the source record status fields, including incomplete or intermediate measurements. Use the task-specific final summaries for reported accuracy and the final six-branch detection file for detection latency. It is not a declaration that every intermediate record is final.
+
+## Manuscript-matched pruning summary
+
+`manuscript_summary.csv` derives the manuscript comparison from `int8_imagenetcal` classification deployment records, `int8` segmentation records, and final six-branch INT8 detection records. It includes three-seed mean accuracy, sample standard deviation in percentage points, and the mean of per-seed latency medians. `benchmark_summary.json` also includes timings for different classification calibration configurations and must not be substituted for the manuscript configuration.
