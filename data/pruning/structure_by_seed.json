@@ -1,0 +1,83 @@
+[
+  {
+    "source": "runs/segmentation/prune_seed42_formal/metrics.json",
+    "macs_before": 2048538456.0,
+    "macs_after": 1288523240.0,
+    "mac_reduction_percent": 37.10036361650806,
+    "parameters_before": 3221538,
+    "parameters_after": 2049842,
+    "parameter_reduction_percent": 36.37070244088383
+  },
+  {
+    "source": "runs/segmentation/prune_seed43_formal/metrics.json",
+    "macs_before": 2048538456.0,
+    "macs_after": 1288523240.0,
+    "mac_reduction_percent": 37.10036361650806,
+    "parameters_before": 3221538,
+    "parameters_after": 2049842,
+    "parameter_reduction_percent": 36.37070244088383
+  },
+  {
+    "source": "runs/segmentation/prune_seed44_formal/metrics.json",
+    "macs_before": 2048538456.0,
+    "macs_after": 1288523240.0,
+    "mac_reduction_percent": 37.10036361650806,
+    "parameters_before": 3221538,
+    "parameters_after": 2049842,
+    "parameter_reduction_percent": 36.37070244088383
+  },
+  {
+    "source": "runs/classification/prune_seed42_formal/metrics.json",
+    "macs_before": 1822177768.0,
+    "macs_after": 1095887888.0,
+    "mac_reduction_percent": 39.85834383201629,
+    "parameters_before": 11689512,
+    "parameters_after": 7383960,
+    "parameter_reduction_percent": 36.83260687015848
+  },
+  {
+    "source": "runs/classification/prune_seed43_formal/metrics.json",
+    "macs_before": 1822177768.0,
+    "macs_after": 1095887888.0,
+    "mac_reduction_percent": 39.85834383201629,
+    "parameters_before": 11689512,
+    "parameters_after": 7383960,
+    "parameter_reduction_percent": 36.83260687015848
+  },
+  {
+    "source": "runs/classification/prune_seed44_formal/metrics.json",
+    "macs_before": 1822177768.0,
+    "macs_after": 1095887888.0,
+    "mac_reduction_percent": 39.85834383201629,
+    "parameters_before": 11689512,
+    "parameters_after": 7383960,
+    "parameter_reduction_percent": 36.83260687015848
+  },
+  {
+    "source": "runs/detection/prune_seed42_formal/method_report.json",
+    "macs_before": 4402361600.0,
+    "macs_after": 2980793600.0,
+    "mac_reduction_percent": 32.29103215873953,
+    "parameters_before": 3157200,
+    "parameters_after": 2051944,
+    "parameter_reduction_percent": 35.00747497782846
+  },
+  {
+    "source": "runs/detection/prune_seed43_formal/method_report.json",
+    "macs_before": 4402361600.0,
+    "macs_after": 2980793600.0,
+    "mac_reduction_percent": 32.29103215873953,
+    "parameters_before": 3157200,
+    "parameters_after": 2051944,
+    "parameter_reduction_percent": 35.00747497782846
+  },
+  {
+    "source": "runs/detection/prune_seed44_formal/method_report.json",
+    "macs_before": 4402361600.0,
+    "macs_after": 2980793600.0,
+    "mac_reduction_percent": 32.29103215873953,
+    "parameters_before": 3157200,
+    "parameters_after": 2051944,
+    "parameter_reduction_percent": 35.00747497782846
+  }
+]
