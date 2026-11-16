@@ -1,0 +1,30 @@
+[
+  {
+    "arm": "finetune",
+    "precision": "fp16",
+    "n": 3,
+    "mean": 0.7164744066106079,
+    "sample_std": 0.002533217632385371
+  },
+  {
+    "arm": "finetune",
+    "precision": "int8",
+    "n": 3,
+    "mean": 0.6988512110521732,
+    "sample_std": 0.002356595009865691
+  },
+  {
+    "arm": "prune",
+    "precision": "fp16",
+    "n": 3,
+    "mean": 0.3485560147980722,
+    "sample_std": 0.0074387894744375295
+  },
+  {
+    "arm": "prune",
+    "precision": "int8",
+    "n": 3,
+    "mean": 0.33283574201884714,
+    "sample_std": 0.008498551627989138
+  }
+]
